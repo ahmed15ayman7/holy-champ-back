@@ -5,7 +5,7 @@ cron.schedule("1 0 * * *", async () => {
   console.log("Running daily update task...");
 
   try {
-    const response = await fetch(`https://www.alzaytun-reading.com/api/daily-update`, {
+    const response = await fetch(`https://www.alzaytun-reading.com/api/reading-update`, {
       method: "POST",
     });
 
